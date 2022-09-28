@@ -1,0 +1,52 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url('../img/fondo1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 100%;
+    padding: 15px;
+}
+
+.formulario {
+    background: #fff;
+    margin: auto;
+    width: 430px;
+    margin-top: 100px;
+    border-radius: 2%;
+}
+
+#Label1 {
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+
+
+#btnLogin {
+    border: none;
+    color: white;
+    font-size: 20px;
+    background: #1a2537;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnLogin:hover {
+   background: cadetblue;
+}
+
+a {
+    text-decoration: none;
+    color: #1a2537;
+    font-weight: 600;
+}
+

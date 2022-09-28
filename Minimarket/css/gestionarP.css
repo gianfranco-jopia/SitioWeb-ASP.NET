@@ -1,0 +1,40 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 100%;
+    padding: 15px;
+}
+
+.formulario {
+    background: rgba(0,0,0,0.3);
+    margin: auto;
+    width: 430px;
+    border-radius: 2%;
+}
+
+#btnModificar, #btnEliminar {
+    border: none;
+    color: white;
+    font-size: 20px;
+    background: #1a2537;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnEliminar:hover {
+        background: cadetblue;
+}
+
+#btnModificar:hover {
+        background: cadetblue;
+}

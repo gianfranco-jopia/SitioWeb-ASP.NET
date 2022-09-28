@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="menuP.master.cs" Inherits="Minimarket.menuP" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/menu.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <nav class="menu">
+            <ul>
+                <li><a href="Login.aspx">Home</a></li>
+                <li class="submenu"><a href="#">Producto &#9013;</a>
+                    <ul>
+                        <li><a href="Login.aspx">Categoria de Productos</a></li>
+                        <li><a href="Login.aspx">Buscar Producto</a></li>
+                        <li><a href="Login.aspx">Ver Producto</a></li>
+                    </ul>
+                </li>
+                <li><a href="Login.aspx">Nuestros Proveedores</a></li>
+                <li><a href="Login.aspx">Contactenos</a></li>
+                <li><a href="Login.aspx">Quienes somos</a></li>
+                <li><a href="Login.aspx">Carrito</a></li>
+                <li><a href="Login.aspx">Login</a></li>
+            </ul>
+        </nav>
+            <div class="contenedor2">
+                <img src="img/transbank.png" />
+            </div>
+        <main>
+
+        </main>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <div class="footer">
+            <p class="copy">2020 &copy; MINIMARKET ONLINE DEL PUEBLO :D (GianfrancoJopia ~ AlejandoNeira)</p>
+			<div class="sociales">				
+				<a href="#"> 📧 contactominimarket@gmail.com</a>
+				<a href="https://www.google.cl/maps/search/Marbella+-+Av.+San+Carlos,+Puente+Alto,+Regi%C3%B3n+Metrop+-+Av.+San+Carlos,+Puente+Alto,+Regi%C3%B3n+Metropolitana/@-33.5970414,-70.5660926,18z">🌎 Av.San Carlos, 787-829 Comuna de Puente Alto, Santiago</a>
+				<a href="#">📞+569 81735101 </a>
+				<a href="#">📞+562 27012331 </a>
+			</div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,29 @@
+﻿.form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.3);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+
+#BtnBuscar {
+    background: #31384A;
+    color: #fff;
+    padding: 10px;
+}
+
+#BtnBuscar:hover {
+    cursor: pointer;
+}

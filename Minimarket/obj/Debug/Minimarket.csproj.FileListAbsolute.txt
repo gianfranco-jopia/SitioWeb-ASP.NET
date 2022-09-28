@@ -1,0 +1,42 @@
+c:\users\gambito\documents\visual studio 2013\Projects\Minimarket\Minimarket\bin\Minimarket.dll.config
+c:\users\gambito\documents\visual studio 2013\Projects\Minimarket\Minimarket\bin\Minimarket.dll
+c:\users\gambito\documents\visual studio 2013\Projects\Minimarket\Minimarket\bin\Minimarket.pdb
+c:\users\gambito\documents\visual studio 2013\Projects\Minimarket\Minimarket\obj\Debug\Minimarket.csprojResolveAssemblyReference.cache
+c:\users\gambito\documents\visual studio 2013\Projects\Minimarket\Minimarket\obj\Debug\Minimarket.dll
+c:\users\gambito\documents\visual studio 2013\Projects\Minimarket\Minimarket\obj\Debug\Minimarket.pdb
+D:\visual\Minimarket\Minimarket\bin\Minimarket.dll.config
+D:\visual\Minimarket\Minimarket\bin\Minimarket.dll
+D:\visual\Minimarket\Minimarket\bin\Minimarket.pdb
+D:\visual\Minimarket\Minimarket\obj\Debug\Minimarket.csprojAssemblyReference.cache
+D:\visual\Minimarket\Minimarket\obj\Debug\Minimarket.csproj.CoreCompileInputs.cache
+D:\visual\Minimarket\Minimarket\obj\Debug\Minimarket.dll
+D:\visual\Minimarket\Minimarket\obj\Debug\Minimarket.pdb
+C:\Users\Gambito\source\repos\Minimarket\Minimarket\bin\Minimarket.dll.config
+C:\Users\Gambito\source\repos\Minimarket\Minimarket\bin\Minimarket.dll
+C:\Users\Gambito\source\repos\Minimarket\Minimarket\bin\Minimarket.pdb
+C:\Users\Gambito\source\repos\Minimarket\Minimarket\obj\Debug\Minimarket.csproj.CoreCompileInputs.cache
+C:\Users\Gambito\source\repos\Minimarket\Minimarket\obj\Debug\Minimarket.dll
+C:\Users\Gambito\source\repos\Minimarket\Minimarket\obj\Debug\Minimarket.pdb
+C:\Users\Gambito\source\repos\Minimarket\Minimarket\obj\Debug\Minimarket.csprojAssemblyReference.cache
+C:\Users\Gambito\source\repos\Minimarket\Minimarket\bin\itextsharp.dll
+C:\Users\Gambito\source\repos\Minimarket\Minimarket\bin\itextsharp.xml
+C:\Users\Gambito\source\repos\Minimarket\Minimarket\obj\Debug\Minimarket.csproj.CopyComplete
+C:\Users\usuario\Desktop\Minimarket\Minimarket\bin\Minimarket.dll.config
+C:\Users\usuario\Desktop\Minimarket\Minimarket\bin\Minimarket.dll
+C:\Users\usuario\Desktop\Minimarket\Minimarket\bin\Minimarket.pdb
+C:\Users\usuario\Desktop\Minimarket\Minimarket\bin\itextsharp.dll
+C:\Users\usuario\Desktop\Minimarket\Minimarket\bin\itextsharp.xml
+C:\Users\usuario\Desktop\Minimarket\Minimarket\obj\Debug\Minimarket.csprojAssemblyReference.cache
+C:\Users\usuario\Desktop\Minimarket\Minimarket\obj\Debug\Minimarket.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\Minimarket\Minimarket\obj\Debug\Minimarket.csproj.CopyComplete
+C:\Users\usuario\Desktop\Minimarket\Minimarket\obj\Debug\Minimarket.dll
+C:\Users\usuario\Desktop\Minimarket\Minimarket\obj\Debug\Minimarket.pdb
+D:\Descargas\Sistemas\Minimarket\Minimarket\bin\Minimarket.dll.config
+D:\Descargas\Sistemas\Minimarket\Minimarket\bin\Minimarket.dll
+D:\Descargas\Sistemas\Minimarket\Minimarket\bin\Minimarket.pdb
+D:\Descargas\Sistemas\Minimarket\Minimarket\bin\itextsharp.dll
+D:\Descargas\Sistemas\Minimarket\Minimarket\bin\itextsharp.xml
+D:\Descargas\Sistemas\Minimarket\Minimarket\obj\Debug\Minimarket.csproj.AssemblyReference.cache
+D:\Descargas\Sistemas\Minimarket\Minimarket\obj\Debug\Minimarket.csproj.CoreCompileInputs.cache
+D:\Descargas\Sistemas\Minimarket\Minimarket\obj\Debug\Minimarket.dll
+D:\Descargas\Sistemas\Minimarket\Minimarket\obj\Debug\Minimarket.pdb

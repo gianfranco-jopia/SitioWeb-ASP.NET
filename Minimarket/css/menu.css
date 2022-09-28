@@ -1,0 +1,92 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    justify-content: flex-end;
+}
+.menu{
+    position:fixed;
+    top:0;
+    left:0px;
+    z-index:100;
+    width:100%;
+}
+
+.menu ul {
+    background: #FF9C23;
+    display: flex;
+    list-style: none;
+}
+
+.menu ul ul {
+    display: none;
+}
+
+.menu a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background: rgba(0,0,0,0.3);
+}
+
+.menu ul li:hover ul {
+    display: block;
+    position: absolute;
+}
+
+.footer {
+    background: #454547;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer p {
+    color: #fff;
+}
+
+.sociales {
+    width: 100%;
+    text-align: center;
+    font-size: 15px
+}
+
+.sociales a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contenedor2 img {
+    width: 10%;
+    position: absolute;
+    align-content:end;
+    margin-top:50px;
+}
+
+.logoTipoU img {
+    padding: 4px;
+    margin-top:-48px;
+    width:45px;
+    height:45px;
+    position: absolute;
+    align-content: end;
+}
+
+.TipoU {
+    padding:40px;
+    margin-top: -75px;
+    position: absolute;
+    color:#fff;
+}

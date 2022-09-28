@@ -1,0 +1,99 @@
+﻿@import url('banner.css');
+
+.fondo {
+    background-image: url('../img/fondo.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.slider {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 200%;
+    animation: cambio 10s infinite;
+    animation-direction: alternate;
+}
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+     width: 100%;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    45% {margin-left: 0;}
+    50% { margin-left: -100%;}
+    100% { margin-left: -100%;}
+}
+/*----------------------------------------*/
+.text {
+    position: absolute;
+    width: 450px;
+    left: 50%;
+    margin-left: -290px;
+    height: 40px;
+}
+
+p{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    text-align: center;
+}
+
+.word {
+    position: absolute;
+    width: 220px;
+    opacity: 0;
+}
+.letter {
+    display: inline-block;
+    position: relative;
+    float: left;
+    transform: translateZ(25px);
+    transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+    transform: rotateX(90deg);
+    transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+    transform: rotateX(-90deg);
+}
+
+.letter.in {
+    transform: rotateX(0deg);
+    transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.wisteria {
+    color: #8e44ad;
+}
+
+.belize {
+    color: #2980b9;
+}
+
+.pomegranate {
+    color: #c0392b;
+}
+
+.green {
+    color: #16a085;
+}
+
+.midnight {
+    color: #ff8000;
+}

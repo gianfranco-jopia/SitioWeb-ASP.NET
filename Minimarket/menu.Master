@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="menu.master.cs" Inherits="Minimarket.menu" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/menu.css" rel="stylesheet" />
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/Alert_Swal/sweetalert.min.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <nav class="menu">
+            <ul>
+                <li class="submenu"><a href="#">&#128100;</a>
+                    <ul>
+                        <li><asp:LinkButton ID="AjustesU" class="a" runat="server" OnClick="AjustesU_Click">Ajustes de Usuario</asp:LinkButton></li>
+                        <li><asp:LinkButton ID="GestionarP" class="a" runat="server" OnClick="GestionarP_Click">Gestionar Productos</asp:LinkButton></li>
+                        <li><asp:LinkButton ID="CerrarS" class="a" runat="server" OnClick="CerrarS_Click">Cerrar sesion</asp:LinkButton></li>
+                    </ul>
+                </li>
+                <li><asp:LinkButton ID="Home" class="a" runat="server" OnClick="Home_Click">Home</asp:LinkButton></li>
+                <li class="submenu"><asp:LinkButton ID="Producto" class="a" runat="server">Producto &#9013;</asp:LinkButton>
+                    <ul>
+                        <li><asp:LinkButton ID="BuscarC" class="a" runat="server" OnClick="BuscarC_Click">Categoria de Productos</asp:LinkButton></li>
+                        <li><asp:LinkButton ID="BuscarP" class="a" runat="server" OnClick="BuscarP_Click">Buscar Producto</asp:LinkButton></li>
+                        <li><asp:LinkButton ID="VerProducto" class="a" runat="server" OnClick="VerProducto_Click">Ver Producto</asp:LinkButton></li>
+                    </ul>
+                </li>
+                <li><asp:LinkButton ID="NuestrosP" class="a" runat="server" OnClick="NuestrosP_Click">Nuestros Proveedores</asp:LinkButton></li>
+                <li><asp:LinkButton ID="Contactenos" class="a" runat="server" OnClick="Contactenos_Click">Contactenos</asp:LinkButton></li>
+                <li><asp:LinkButton ID="Quienes" class="a" runat="server" OnClick="Quienes_Click">Quienes somos</asp:LinkButton></li>
+                <li><asp:LinkButton ID="Carrito" class="a" runat="server" OnClick="Carrito_Click">Carrito</asp:LinkButton></li>
+            </ul>
+            <%
+            if (Request.Params["parametro"] == "2")
+            {
+            %>
+            <div class="logoTipoU">
+                <img src="img/administrador.png" />
+                <label class="TipoU">Usted es Administrador</label>
+            </div>
+            <%
+            }
+            else if (Request.Params["parametro"] == "3")
+            {
+            %>
+            <div class="logoTipoU">
+                <img src="img/usuarios.png" />
+                <label class="TipoU">Usted es Cliente</label>
+            </div>
+            <%
+            }
+            %>
+        </nav>
+            <div class="contenedor2">
+                <img src="img/transbank.png" />
+            </div>
+        <main>
+
+        </main>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <div class="footer">
+            <p class="copy">2020 &copy; MINIMARKET ONLINE DEL PUEBLO :D (GianfrancoJopia ~ AlejandoNeira)</p>
+			<div class="sociales">				
+				<a href="#"> 📧 contactominimarket@gmail.com</a>
+				<a href="https://www.google.cl/maps/search/Marbella+-+Av.+San+Carlos,+Puente+Alto,+Regi%C3%B3n+Metrop+-+Av.+San+Carlos,+Puente+Alto,+Regi%C3%B3n+Metropolitana/@-33.5970414,-70.5660926,18z">🌎 Av.San Carlos, 787-829 Comuna de Puente Alto, Santiago</a>
+				<a href="#">📞+569 81735101 </a>
+				<a href="#">📞+562 27012331 </a>
+			</div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

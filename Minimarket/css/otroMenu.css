@@ -1,0 +1,27 @@
+﻿.omenu ul {
+    background: #FF9C23;
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    margin-top: -51px;
+}
+
+.omenu ul ul {
+    display: none;
+}
+
+.omenu a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.omenu a:hover {
+    background: rgba(0,0,0,0.3);
+}
+
+.omenu ul li:hover ul {
+    display: block;
+    position: absolute;
+}
